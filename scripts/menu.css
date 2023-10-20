@@ -49,7 +49,7 @@ nav{
     transition: .4s;
     width: 80px;
     border-radius: 15px 0px 0px 15px;
-    margin-right: 200px;
+    margin-right: -200px;
 }
 #nav2.active{
 
