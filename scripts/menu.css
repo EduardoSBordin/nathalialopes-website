@@ -1,0 +1,138 @@
+header{
+
+    background: #111111;
+    color: white;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+}
+#group1{
+
+    background: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+#group2{
+
+        display: none;
+        background: rgba(255, 0, 0, 0);
+        flex-direction: column;
+        align-items: end;
+        width: 200px;
+        height: 300px;
+        margin-right: 0px;
+        margin-top: 250px;
+}
+nav{
+
+    background: rgba(74, 74, 74, 0);
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin-top: -30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+#nav2{
+
+    background: rgba(244, 165, 96, 0.991);
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    transition: .4s;
+    width: 80px;
+    border-radius: 15px 0px 0px 15px;
+}
+#nav2.active{
+
+    margin-right: -200px;
+}
+#openMenu{
+
+    width: 100px;
+    height: 70px;
+    border-radius: 15px 0px 0px 15px;
+    float: right;
+    font-size: 32pt;
+    border: none;
+    background: rgb(75, 75, 75);
+    color: grey;
+    cursor: pointer;
+    transition: .3s;
+}
+#openMenu:hover{
+
+    background: rgb(244, 165, 96);
+    color: white;
+}
+#logoRight{
+
+    width: 150px;
+    background: rgba(0, 128, 0, 0);
+    position: absolute;
+    margin-left: 150px;
+    transition: .3s;
+}
+#h1Name{
+
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 32pt;
+    transition: .3s;
+    color: whitesmoke;
+}
+#linkNav{
+
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14pt;
+    font-weight: 500;
+    transition: .3s;
+}
+#linkNav:hover{
+
+    color: pink;
+}
+@media (max-width: 600px){
+
+    #logoRight{
+
+        position: relative;
+        margin: auto;
+    }
+    header{
+
+        /* background: rgb(87, 87, 87); */
+    }
+    #h1Name{
+
+        display: none;
+    }
+    #group1{
+
+        display: none;
+    }
+    #group2{
+        display: flex;
+    }
+
+}
+@media (max-width: 1260px){
+
+    #h1Name{
+        font-size: 22pt;
+    }
+    #logoRight{
+
+        position: relative;
+        margin-left: 0px;
+    }
+}
