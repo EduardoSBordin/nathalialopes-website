@@ -15,7 +15,7 @@
 
     <header>
 
-        <img src="./imgs/newLogo.png" alt="logo" id="logoRight">
+        <img src="./imgs/newlogoN.png" alt="logo" id="logoRight">
         
         <div id="group1">
         <h1 id="h1Name">Nathalia Lopes  Nails Designer</h1>
@@ -32,10 +32,10 @@
             <button id="openMenu">=</button>
 
             <nav id="nav2">
-                <a href="" id="linkNav">INICIO</a>
-                <a href="" id="linkNav">SERVIÇOS</a>
-                <a href="" id="linkNav">CURSOS</a>
-                <a href="" id="linkNav">CONTATO</a>
+                <a href="" id="linkNav2" class="linkNav2">INICIO</a>
+                <a href="" id="linkNav2" class="linkNav2">SERVIÇOS</a>
+                <a href="" id="linkNav2" class="linkNav2">CURSOS</a>
+                <a href="" id="linkNav2" class="linkNav2">CONTATO</a>
             </nav>
         </div>
 
@@ -44,15 +44,15 @@
     <section>
 
         <div id="divimgSlide">
-            <img src="./imgs/nails1.png" id="imgSlide" alt="">
-            <img src="./imgs/nails3.png" id="imgSlide" alt="">
-            <img src="./imgs/nails1.png" id="imgSlide" alt="">
+            <img src="./imgs/nails1.png" id="imgSlide" class="imgSlide1" alt="">
+            <img src="./imgs/nails3.png" id="imgSlide" class="imgSlide2" alt="">
+            <img src="./imgs/nails1.png" id="imgSlide" class="imgSlide3" alt="">
         </div>
 
         <div id="divInf">
             
-              <h1>SEJA BEM VINDA</h1>
-            <p>
+              <h1>SEJA <span id="subtitleColor">BEM VINDA</span></h1>
+            <p id="mainText">
                 Prazer, sou especializada em serviços de alongamento de
                 unhas em fibra de vidro, manutenções, nail arte, decoração encapsulada.
                 Ministro Cursos de Fibra de Vidro Iniciante, Aperfeiçoamento em Formatos e
@@ -63,19 +63,34 @@
         </div>
 
         <div id="divServicesInf">
-            <h1>Nossos Serviços</h1>
+            <h1 id="titleOurServies">MEUS <span id="subtitleServices">SERVIÇOS</span></h1>
 
-            <img src="" alt="fibra-de-vidro">
-            <img src="" alt="manutenções">
-            <img src="" alt="nail-arte">
-            <img src="" alt="decoração-encapsulada">
+            <div id="contentInfServices">
+            
+            <div id="infimgServices">
+            <h3>ALONGAMENTO EM FIBRA DE VIDRO
+             </h3>
+            <img src="./imgs/nails1.png" alt="fibra-de-vidro" class="imgServices" name="imgServices">
+            </div>
 
-            <a href="">Ver mais</a>
+            <div id="infimgServices">
+                <h3>MANUTENÇÃO DE FIBRA DE VIDRO</h3>
+                <img src="./imgs/nails2.png" alt="fibra-de-vidro" class="imgServices" name="imgServices">
+            </div>
+
+                <div id="infimgServices">
+            <h3>ESMALTAÇÃO EM GEL</h3>
+            <img src="./imgs/nails3.png" alt="fibra-de-vidro" class="imgServices" name="imgServices">
+            </div>
+
+            </div>
+
+            <a href="#" id="linkToMoreServices">Ver mais</a>
         </div>
 
     </section>
 
-    <footer>
+    <!-- <footer>
         <h1>Alguns trabalhos</h1>
 
         <img src="" alt="">
@@ -88,7 +103,7 @@
             <img src="" alt="whatsapp">
         </div>
         <a href="https://www.studioanabarrosnaildesigner.com/">w</a>
-    </footer>
+    </footer> -->
 
 <script src="./scripts/index.js"></script>
 </body>

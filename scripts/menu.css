@@ -3,11 +3,12 @@ header{
     background: #111111;
     color: white;
     width: 100%;
-    height: 150px;
+    height: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
     position: fixed;
+    z-index: 10;
 }
 #group1{
 
@@ -42,10 +43,18 @@ nav{
 }
 #nav2{
 
-    background: rgba(244, 165, 96, 0.991);
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     display: flex;
     flex-direction: column;
-    margin-top: 5px;
+    margin-top: 10px;
     transition: .4s;
     width: 80px;
     border-radius: 15px 0px 0px 15px;
@@ -58,24 +67,24 @@ nav{
 #openMenu{
 
     width: 100px;
-    height: 70px;
+    height: 50px;
     border-radius: 15px 0px 0px 15px;
     float: right;
     font-size: 32pt;
     border: none;
     background: rgb(75, 75, 75);
-    color: grey;
+    color: rgb(95, 95, 95);
     cursor: pointer;
     transition: .3s;
 }
 #openMenu:hover{
 
-    background: rgb(244, 165, 96);
-    color: white;
+    background: rgb(105, 105, 105);
+    color: rgb(50, 50, 50);
 }
 #logoRight{
 
-    width: 150px;
+    width: 100px;
     background: rgba(0, 128, 0, 0);
     position: absolute;
     margin-left: 150px;
@@ -84,10 +93,12 @@ nav{
 #h1Name{
 
     display: flex;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 32pt;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    font-size: 22pt;
     transition: .3s;
     color: whitesmoke;
+    margin-top: -5px;
 }
 #linkNav{
 
@@ -97,11 +108,26 @@ nav{
     font-size: 14pt;
     font-weight: 500;
     transition: .3s;
+    margin-top: 10px;
 }
 #linkNav:hover{
 
     color: pink;
 }
+#linkNav2{
+
+    color: black;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14pt;
+    font-weight: 400;
+    transition: .3s;
+}
+#linkNav2:hover{
+
+    color: pink;
+}
+
 @media (max-width: 600px){
 
     #logoRight{
