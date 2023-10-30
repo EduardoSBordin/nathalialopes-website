@@ -19,11 +19,9 @@
   }
 body{
 
-    background: rgb(236, 236, 236);
+    background: rgb(243, 243, 243);
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
     text-align: center;
 }
 section{
@@ -37,7 +35,7 @@ section{
 }
 #divimgSlide{
 
-    background: rgba(209, 209, 209, 0.47);
+    background: rgba(209, 209, 209, 0);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -95,6 +93,10 @@ h3{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+#whatsapp{
+
+  color: rgb(0, 145, 96);
 }
 #titleOurServies{
 
