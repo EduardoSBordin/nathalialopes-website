@@ -32,20 +32,24 @@ section{
     width: 100%;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 #divimgSlide{
 
-    background: rgba(209, 209, 209, 0);
+    background: rgba(138, 138, 138, 0);
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin-top: -1px;
 }
 #divServicesInf{
 
   background:#b2b2b200;
   width: 100%;
-  height: 600px;
+  height: 550px;
   display: flex;
   flex-direction: column;
 }
@@ -62,7 +66,6 @@ section{
   height: auto;
 }
 #imgSlide{
-
     width: 400px;
     height: 400px;
 }
@@ -159,6 +162,39 @@ p{
   border: 1px solid black;
 
 }
+footer{
+
+  background: #111111;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#h1Footer{
+
+  color: #b38a4c;
+  margin-top: 20px;
+}
+#spanFooter{
+
+  color: white;
+}
+#linkWhatsapp{
+
+  background: #7c5b2a;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  transition: .3s;
+}
+#linkWhatsapp:hover{
+
+  background: #009160;
+}
 @media (max-width:600px){
 
   #mainText{
@@ -166,9 +202,20 @@ p{
     margin-left: 30px;
     margin-right: 30px;
   }
+  #imgSlide{
 
+    width: 100%;
+  }
+ #divServicesInf{
+
+  height: 1050px;
+ }
   .imgSlide2, .imgSlide3{
 
     display: none;
+  }
+  footer{
+
+    height: 300px;
   }
 }
