@@ -9,7 +9,7 @@ header{
     align-items: center;
     position: fixed;
     z-index: 10;
-    margin-top: -101px;
+    /* margin-top: -101px; */
 
 /* background: rgba(17, 17, 17, 0.58);
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
