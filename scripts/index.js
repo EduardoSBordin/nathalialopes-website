@@ -6,7 +6,7 @@ let btnCourses = document.querySelector('.btnCourses');
 let modalCourses = document.querySelector('#modalCourses');
 
 let countClick = 0;
-let countClickModalCourses = 0;
+let countClickModalCourses = 1;
 
 openMenu.addEventListener('click', () => {
 
@@ -22,6 +22,7 @@ openMenu.addEventListener('click', () => {
         countClick = 0;
         //openModalMenu.style.display = 'none';
         openMenu.textContent = '=';
+        modalCourses.style.display = 'none';
     }
 
 
@@ -30,16 +31,17 @@ openMenu.addEventListener('click', () => {
 
 btnCourses.addEventListener('click', (e) => {
     e.preventDefault();
+
     countClickModalCourses++;
-
     modalCourses.classList.toggle('activeModal');
+    modalCourses.style.display = 'flex';
 
-    // if(countClickModalCourses <= 1){
-    //     modalCourses.style.display = "none";
-    // }else{
+    if(countClickModalCourses == 1){
+        modalCourses.style.display = "none";
+    }else{
 
-    //     countClickModalCourses = 0;
-    //     modalCourses.style.display = 'flex';
-    // }
+        countClickModalCourses = 0;
+        modalCourses.style.display = 'flex';
+    }
 
 })
