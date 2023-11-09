@@ -155,6 +155,10 @@ h2{
 
     height: auto;
   }
+  #divInfSocialMedia{
+
+    width: 80%;
+  }
 }
 @media (max-width:1200px){
   .imgSlide2, .imgSlide3{
