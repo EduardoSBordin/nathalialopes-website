@@ -267,6 +267,8 @@ section{
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
+  width: 100%;
+  height: 400px;
 }
 #titleContentCourse{
 
@@ -308,9 +310,63 @@ filter: invert(100%);
 
   background: #041804;
   width: 100%;
-  height: 600px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#titlePayment{
+
+  font-family: var(--mainFont);
+  background:burlywood;
+  color: black;
+  width: auto;
+  padding: 10px;
+  border-radius: 25px;
+}
+#payment{
+
+  background:#3f7652;
+  color: burlywood;
+  text-decoration: none;
+  padding: 10px;
+  font-family: var(--mainFont);
+  font-size: 20pt;
+  border-radius: 25px;
+  margin-top: -15px;
+}
+#textPayment{
+
+  font-family: var(--mainFont);
+  color: burlywood;
+  font-size: 22pt;
+  border: 1PX solid burlywood;
+  width: 70%;
+  padding: 15px;
+}
+#linkWhatsappCourse{
+
+  font-family: var(--mainFont);
+  color: burlywood;
+  font-size: 22pt;
+  margin-top: 30px;
+}
+#callMeOnWhatsapp{
+
+  background: #2a7232;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-family: var(--mainFont);
+  font-size: 14pt;
+  border-radius: 5px;
+  margin-top: 15px;
 }
 @media (max-width:600px){
+  #divPayment{
+
+    height: auto;
+  }
   #divContentCourse{
     height: 400px;
   }
