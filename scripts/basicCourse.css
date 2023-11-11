@@ -365,7 +365,7 @@ filter: invert(100%);
 @media (max-width:600px){
   #divPayment{
 
-    height: 900px;
+    height: 1000px;
   }
   #divContentCourse{
     height: 400px;
