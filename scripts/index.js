@@ -1,5 +1,5 @@
 const openMenu = document.querySelector('#openMenu');
-openMenu.textContent = '=';
+openMenu.innerHTML = '=';
 let openModalMenu = document.querySelector('#nav2');
 
 let btnCourses = document.querySelector('.btnCourses');
@@ -15,13 +15,13 @@ openMenu.addEventListener('click', () => {
 
     if(countClick == 1){
         //openModalMenu.style.display = 'flex';
-        openMenu.textContent = 'x'
+        openMenu.innerHTML = 'x'
         
     }else{
 
         countClick = 0;
         //openModalMenu.style.display = 'none';
-        openMenu.textContent = '=';
+        openMenu.innerHTML = '=';
         modalCourses.style.display = 'none';
     }
 

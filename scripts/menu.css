@@ -6,14 +6,14 @@ header{
     height: 100px;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: space-between;
     position: fixed;
     z-index: 10;
-
+    margin-top: -1px;
     /*44*/
-    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    /* box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
     /* margin-top: -101px; */
-
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 /* background: rgba(17, 17, 17, 0.58);
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(20px);
@@ -33,7 +33,7 @@ backdrop-filter: blur(20px);
         height: 400px;
         display: none;
         flex-direction: column;
-        margin: auto;
+        align-items: end;
 }
 nav{
 
@@ -63,20 +63,20 @@ nav{
     flex-direction: column;
     width: 110px;
     height: 200px;
-    border-radius: 0px 0px 0px 15px;
+    border-radius: 0px 0px 15px 15px;
     transition: .4s;
-    margin-left: 400px;
     margin-top: 0px;
+    margin-left: 400px;
 }
 #nav2.active{
 
     transition: .4s;
-    margin-left: 14px;
+    margin-left: 75px;
 }
 #modalCourses{
 
     background: burlywood;
-    margin-left: -206px;
+    margin-left: -145px;
     margin-top: 100px;
     display: none;
     flex-direction: column;
@@ -99,43 +99,40 @@ nav{
     z-index: 20;
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
+    margin: auto;
 }
 #openMenu{
 
-   margin: auto;
    border-radius: 15px;
    margin-top: 20px;
-   position: fixed;
-   margin-left: 55px;
+   margin-right: 30px;
+   /* position: relative;*/
    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    font-size: 26pt;
-    display: flex;
-    justify-content: center;
     transition: .4s;
     width: 50px;
     height: 50px;
-    text-align: center;
     background:none;
-    border: 2px solid burlywood;
+    border: 3px solid burlywood;
     color:burlywood;
-}
-#openMenu:hover{
-
-    /* background: rgb(105, 105, 105); */
-    color: #deb887;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
 }
 #logoRight{
 
     width: 100px;
     background: rgba(0, 128, 0, 0);
-    margin-left: 150px;
+    /* margin-left: 150px; */
     transition: .3s;
     z-index: 1;
 }
 #divLogo{
 
-    position: absolute;
+    /* position: absolute; */
+    background: rgba(255, 192, 203, 0);
+    height: 200px;
+    width: 150px;
 }
 #h1Name{
 
@@ -182,6 +179,8 @@ nav{
     font-size: 14pt;
     font-weight: 500;
     transition: .3s;
+    text-decoration: underline;
+    text-underline-offset: 5px;
 }
 #linkNav3:hover{
 
@@ -200,11 +199,11 @@ nav{
     }
     #group2{
         display: flex;
-        margin-left: 270px;
+        /* margin-left: 270px; */
     }
     #divLogo{
 
-        margin-left: 50px;
+        /* margin-left: 50px; */
     }
 
 }
