@@ -58,7 +58,6 @@ h3{
 #divInf{
 
     text-align: center;
-    
     height: 400px;
 }
 h1{
@@ -91,7 +90,7 @@ p{
 
   background: rgba(165, 42, 42, 0);
   width: 100%;
-  height: auto;
+  height: 1050px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
