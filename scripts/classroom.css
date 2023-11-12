@@ -58,7 +58,8 @@ h3{
 #divInf{
 
     text-align: center;
-    height: 400px;
+    height: auto;
+    background: rgba(255, 192, 203, 0);
 }
 h1{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -90,22 +91,21 @@ p{
 
   background: rgba(165, 42, 42, 0);
   width: 100%;
-  height: 1050px;
+  height: auto;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 15px;
 }
 #courseStart{
 
-  background: rgba(255, 0, 0, 0);
+  background: rgba(149, 255, 0, 0);
   width: 400px;
   height: auto;
   border: 2px solid whitesmoke;
   border-radius: 5px;
-  padding: 10px;
+  padding: 15px;
 }
 .linkAccess{
 
@@ -144,12 +144,9 @@ h2{
   #courseStart{
 
     width: 300px;
+    height: 450px;
   }
  
- #divServicesInf{
-
-  height: 1050px;
- }
   .imgSlide2, .imgSlide3{
 
     display: none;
@@ -162,6 +159,10 @@ h2{
   #divInf{
 
     height: auto;
+  }
+  #divinfCourses{
+
+    height: 1050px;
   }
 }
 @media (max-width:1200px){
