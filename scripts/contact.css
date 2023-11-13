@@ -28,13 +28,15 @@ body{
     background-repeat: no-repeat;
     background-position: center; */
 
-    background-image: linear-gradient(to right bottom, #ffffff, #f1f1f1, #e3e3e3, #d5d5d5, #c7c7c7);    background-repeat: no-repeat;
-    background-position: center; 
     background-attachment: fixed;
+    background-image: linear-gradient(to right bottom, #deb887, #d0a46e, #c29156, #b47e3f, #a66b27, #975e1c, #895110, #7a4503, #683b05, #573205, #472803, #371f00);
+    background-repeat: no-repeat;
+    background-position: center;
     margin: 0;
     text-align: center;
     display: flex;
     flex-direction: column;
+
 }
 section{
 
@@ -71,8 +73,11 @@ h1{
 
 }
 #mainTitle{
-  text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
-  color: #444444;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: whitesmoke;
+  text-decoration: underline;
+  letter-spacing: 5px;
+  text-underline-offset: 10px
 }
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -86,7 +91,7 @@ p{
   width: 80%;
   text-align: center;
   margin: auto;
-  color: rgb(78, 78, 78);
+  color: whitesmoke;
 }
 
 #divinfCourses{
@@ -106,7 +111,7 @@ p{
   background: rgba(255, 0, 0, 0);
   width: 400px;
   height: auto;
-  border: 2px solid rgba(174, 174, 174, 0.537);
+  border: 2px solid whitesmoke;
   border-radius: 5px;
   padding: 10px;
 
@@ -114,7 +119,7 @@ p{
 }
 .linkAccess{
 
-  color: rgb(78, 78, 78);
+  color: whitesmoke;
   text-decoration: none;
   margin: auto;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -123,7 +128,7 @@ p{
 }
 h2{
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: rgb(78, 78, 78);
+  color: whitesmoke;
   font-size: 22pt;
 }
 @media (max-width:600px){

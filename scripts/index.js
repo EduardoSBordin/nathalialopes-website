@@ -5,8 +5,17 @@ let openModalMenu = document.querySelector('#nav2');
 let btnCourses = document.querySelector('.btnCourses');
 let modalCourses = document.querySelector('#modalCourses');
 
+const courseOnlineAlert = document.querySelector('.courseOnlineAlert');
+
 let countClick = 0;
 let countClickModalCourses = 1;
+
+courseOnlineAlert.addEventListener('click', e => {
+
+    e.preventDefault();
+
+    alert('Em construção');
+});
 
 openMenu.addEventListener('click', () => {
 
