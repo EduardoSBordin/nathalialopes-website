@@ -223,7 +223,10 @@ footer{
 @media (max-width:600px){
   .imgServices{
 
-    width: 100%;
+    width: 9%;
+  }
+  h3{
+    width: 90%;
   }
   #mainText{
 
